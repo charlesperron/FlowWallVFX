@@ -179,6 +179,7 @@ MonoBehaviour:
   - {fileID: 1056141061363657763}
   - {fileID: -8083794669176456137}
   - {fileID: -6827597505472674435}
+  - {fileID: 6745554637972799131}
 --- !u!114 &1056141061363657763
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -191,7 +192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ad42d51df0b2f43ba2cab92a53036d, type: 3}
   m_Name: Recolor
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   m_AdvancedMode: 0
   edgeColor:
     m_OverrideState: 1
@@ -271,18 +272,18 @@ MonoBehaviour:
   active: 1
   m_AdvancedMode: 0
   rowCount:
-    m_OverrideState: 0
-    m_Value: 30
+    m_OverrideState: 1
+    m_Value: 20
   angle:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: -57.4
     min: -90
     max: 90
   displacement:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.108
     min: -1
     max: 1
   randomSeed:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 78
