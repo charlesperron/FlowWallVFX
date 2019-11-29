@@ -559,7 +559,7 @@ MonoBehaviour:
     - model: {fileID: 8926484042661619483}
       id: 0
       isStickyNote: 0
-  - title: Scales on A press and lerps back
+  - title: Scales on W press and lerps back
     position:
       serializedVersion: 2
       x: -1251
