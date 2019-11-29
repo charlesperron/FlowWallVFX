@@ -1,0 +1,55 @@
+{
+    "name": "PlayerInputs",
+    "maps": [
+        {
+            "name": "Test",
+            "id": "8e140d58-edfa-4f0d-9508-6a8d4153671d",
+            "actions": [
+                {
+                    "name": "SpawnRate",
+                    "type": "Button",
+                    "id": "dfb8260c-2f5a-40c6-a7d1-940c18dcfd68",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Button With One Modifier",
+                    "id": "b07a9b71-7995-492a-964b-f7184225c24f",
+                    "path": "ButtonWithOneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpawnRate",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Modifier",
+                    "id": "b93256df-8d17-4555-86a6-5a79c5dbb20d",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpawnRate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Button",
+                    "id": "9d0750c9-85c9-4a8e-8e2e-c42a0e1f1e2f",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpawnRate",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

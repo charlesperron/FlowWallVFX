@@ -372,6 +372,7 @@ GameObject:
   - component: {fileID: 176413812}
   - component: {fileID: 176413811}
   - component: {fileID: 176413820}
+  - component: {fileID: 176413822}
   m_Layer: 0
   m_Name: GlitchKinoInputs
   m_TagString: Untagged
@@ -488,12 +489,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ExecuteInEditor: 1
   m_Bindings:
-  - {fileID: 176413815}
-  - {fileID: 176413814}
-  - {fileID: 176413813}
   - {fileID: 176413812}
-  - {fileID: 176413811}
+  - {fileID: 176413813}
+  - {fileID: 176413815}
   - {fileID: 176413820}
+  - {fileID: 176413814}
+  - {fileID: 176413811}
   m_VisualEffect: {fileID: 176413818}
 --- !u!73398921 &176413817
 VFXRenderer:
@@ -567,6 +568,9 @@ VisualEffect:
         m_Overridden: 1
       - m_Value: 0
         m_Name: Flow Offsets
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: SpawnRate
         m_Overridden: 1
     m_Vector2f:
       m_Array: []
@@ -642,6 +646,22 @@ MonoBehaviour:
   Key: 115
   SmoothSpeed: 1
   UseKeySmooth: 1
+--- !u!114 &176413822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176413810}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84b6a4e4a609afe368a23f79271e11b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 176413818}
+  EventName: OnSpawnRate
+  Input: {fileID: 1004141190}
+  _actionName: SpawnRate
 --- !u!1 &394465166
 GameObject:
   m_ObjectHideFlags: 0
@@ -1087,6 +1107,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1004141189
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1004141191}
+  - component: {fileID: 1004141190}
+  m_Layer: 0
+  m_Name: PlayerInputs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1004141190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004141189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 96f5a22d60108d54baccd4bd1849dca2,
+    type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Test
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!4 &1004141191
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004141189}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.39399558, y: -0.06593382, z: 0.55205494}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1011474366
 GameObject:
