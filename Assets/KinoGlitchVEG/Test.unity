@@ -613,6 +613,9 @@ VisualEffect:
       - m_Value: 0
         m_Name: QPress
         m_Overridden: 1
+      - m_Value: 0
+        m_Name: Bye
+        m_Overridden: 1
 --- !u!4 &176413819
 Transform:
   m_ObjectHideFlags: 0
